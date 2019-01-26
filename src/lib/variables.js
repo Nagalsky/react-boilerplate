@@ -3,14 +3,14 @@ import '../fonts/fonts.css'
 
 /* Colors */
 /* http://chir.ag/projects/name-that-color is used to get colors names */
-export const colors = {
+export const baseColors = {
   white: '#ffffff',
   black: '#000000',
 }
 
-export const baseColors = {
-  bodyColor: colors.white,
-  titleColor: colors.black,
+export const colors = {
+  bodyColor: baseColors.white,
+  titleColor: baseColors.black,
 }
 
 

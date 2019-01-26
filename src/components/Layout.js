@@ -1,7 +1,7 @@
 import React from 'react'
 import { css, Global } from '@emotion/core'
 import { breakpoints } from '../lib/breakpoints'
-import { baseColors } from '../lib/variables'
+import { colors } from '../lib/variables'
 import { typography } from '../lib/variables'
 import { transition } from '../lib/variables'
 
@@ -19,7 +19,7 @@ const globalStyles = css`
     margin: 0;
     padding: 0;
     background: gray;
-    color: ${baseColors.bodyColor};
+    color: ${colors.bodyColor};
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     ${breakpoints.lgUp} {
@@ -42,6 +42,7 @@ const globalStyles = css`
     margin-bottom: 20px;
     font-family: ${typography.titleFontFamily}, sans-serif;
     line-height: ${typography.titleLineHeight};
+    color: ${colors.titleColor};
     &:last-child {
       margin-bottom: 0;
     }
