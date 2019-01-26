@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core'
-//import { bpMaxSM } from 'lib/breakpoints'
 
 const Container = ({containerFluid, children}) => {
   return (
