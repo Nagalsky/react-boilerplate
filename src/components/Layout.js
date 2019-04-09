@@ -93,7 +93,7 @@ export default props => {
     <React.Fragment>
       <Global styles={globalStyles} />
       <Header />
-      {props.children}
+      <main>{props.children}</main>
       <Footer />
     </React.Fragment>
   )
